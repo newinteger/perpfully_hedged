@@ -1,0 +1,16 @@
+[package]
+name = "ftx_api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = {version="0.11.6", features = ["blocking", "json"]}
+serde = {version= "1.0.130", features = ["derive"]}
+serde_json = {version = "1.0.68"}
+sha2 = {version = "0.10.1"}
+
+ring = {version = "0.16.20"}
+rust-crypto = {version = "0.2.36"}
+hex = "0.4.3"

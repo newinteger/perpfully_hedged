@@ -1,0 +1,12 @@
+[package]
+name = "overthehedge"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ftx_api = {path="ftx_api"}
+tokio = { version = "1.13.0", features = ["full"] }
+regex = {version = "1.5.4"}
+array_tool = {version = "1.0.3"}
