@@ -1,3 +1,5 @@
+Update 2023: Since FTX is no longer operational neither is this code, it can still however be forked and implemented for other exchanges as the heuristic still works.
+
 # Perpfully Hedged
 
 ## What is this?
@@ -23,5 +25,3 @@ Automation can be done with `cron` or similar tools.
 
 ## Final notes
 This program is provided as is and should only be used with your own precaution. I do not take any responsibility for any effects it can cause.
-
-Don't have an account on [FTX](https://ftx.com/profile#a=26094852)? Use [my referall code](https://ftx.com/profile#a=26094852) and get 5% of your trading fees back. It would be much appreciated.
